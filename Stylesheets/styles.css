@@ -1,0 +1,116 @@
+/* colors:
+    #62B664
+    #406C51
+    #777BB5 (changed to #9da0d1)
+    #1B156F
+    #8E4FB8 */
+*{
+    background-color: #9da0d1;
+    color: #1B156F;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 5px #406C51;
+}
+
+header h1, nav ul {
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header, header h1, header nav, header ul, header li, header a, footer, footer a {
+    background-color: #8E4FB8;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.5em;
+}
+
+a img{
+    width: 382px;
+    height: 191px;
+    border-radius: 10px;
+    transition: transform 200ms;
+    border: solid 5px #406C51;
+}
+
+a img:hover{
+    transform: scale(1.05);
+}
+
+audio {
+    margin: 5px;
+}
+
+footer {
+    border-top: solid 5px #406C51;
+    margin-top: 64px;
+    padding: 10px;
+}
+
+#pfp {
+    border-radius: 50%;
+    border: solid 5px #406C51;
+    width: 300px;
+    height: 300px;
+    z-index: 3;
+}
+
+.text {
+    position: relative;
+    align-content: top;
+    padding: 50px 25px;
+    border-bottom: solid 5px #406C51;
+}
+
+#about div {
+    margin-left: 25px;
+}
+
+.paragraph p {
+    max-width: 50rem;
+}
+
+#education {
+    margin-top: 50px;
+}
+
+#projects h2 {
+    margin-left: 15px;
+}
+
+#projects {
+    width: 100vw;
+}
+
+#sites, #about, #music {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-display h3 { 
+    text-align: center;
+}
+
+.project-display {
+    margin: 15px;
+}
+
+#music {
+    width: 100vw;
+}

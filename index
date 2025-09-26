@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotTim</title>
+    <link rel="stylesheet" href="Stylesheets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>NotTim</h1>
+        <nav id="navigation">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Add something in the about me -->
+
+    <main id="about" class="text">
+        <img src="Images/Gangsta Broccoli.png" alt="my profile picture" id="pfp">
+        <div class="paragraph">
+            <h2>About me</h2>
+            <p><br>I'm NotTim, and I am a senior at Hollins High School in St. Petersburg, FL, graduating in May 2026, currently with a 3.42 GPA. In addition to high school, I am dual-enrolled at Pinellas Technical College, where I study web development. I am also in my fourth year of the Academy of Entertainment Arts magnet program, where I’ve specialized in Game Design & Simulation as well as Digital Music     Production. <br><br>
+            I first became interested in web development through my Game Design & Simulation class. While the curriculum covered many aspects of video game creation, I was most drawn to the coding side of the process. What excites me most about web development is the ability to apply code and see the results come to life on the screen. <br><br>
+            Outside of coding, I enjoy producing digital music using tools like Logic Pro X, LMMS, and Audacity. In the future, I plan on developing skills in JavaScript so I can build more interactive websites.</p>
+        </div>
+    </main>
+
+    <main id="education" class="text">
+        <div class="paragraph">
+        <h2>Education</h2>
+            <p><br>Current schools:
+                    <br>Hollins High School, 4940 62nd Street N, Kenneth City, FL 33709
+			        Pinellas Technical College, 6100 154th Avenue N, Clearwater, FL 33760
+                    <br><br>
+                    Current grade: 	12th
+
+                    Relevant classes:
+                    <br>AP Computer Science, 9th grade
+			        Game Design & Simulation, 9-12th grade
+			        Web Development, 12th grade (ongoing)
+            </p>
+        </div>
+    </main>
+
+    <main id="skills" class="text">
+        <div class="paragraph">
+        <h2>Skills</h2>
+            <p><br>I know C# fairly well, and use it in unity. I am learning HTML and CSS right now, and I haved used those in Visual Studio Code. In terms of music, I use Logic Pro X in my classes, and LMMS and Audacity at home. I have a basic knowledge of music theory, enough to cook up some beats.
+            </p>
+        </div>
+    </main>
+
+    <div id="projects">
+        <h2>Web Pages:</h2>
+        <section id="sites">
+
+            <div id="Goof Zone" class="project-display">
+                <a href="https://mynameisnttim.github.io/personal-page/" target="_blank">
+                    <img src="Images/The Goof Zone.png" alt="The Goof Zone">
+                </a>
+                <h3>The Goof Zone</h3>
+            </div>
+            <!-- <div id="Goof Zone too" class="project-display">
+                <a href="https://mynameisnttim.github.io/personal-page/">
+                    <img src="Images/The Goof Zone.png" alt="The Goof Zone">
+                </a>
+                <h3>The Goof Zone</h3>
+            </div> -->
+            
+        </section>
+
+        <h2>Music:</h2>
+        <section id="music" class="project-display">
+            <audio src="Audio/Road Trippin'(48 Hour Music Challenge).mp3" controls></audio>
+            <audio src="Audio/Cosmic Rythym.mp3" controls></audio>
+            <audio src="Audio/Dancing Stars.mp3" controls></audio>
+            <audio src="Audio/Electric Picasso.mp3" controls></audio>
+            <audio src="Audio/Hazardous and Harmonious New.mp3" controls></audio>
+            <audio src="Audio/Project1(Nightcrawlers).mp3" controls></audio>
+            <audio src="Audio/Nightcrawlers Spiritual Successor.mp3" controls></audio>
+        
+        </section>
+    </div>
+
+    <footer>
+        NotTim 2025
+        <br>
+        <a href="https://github.com/MyNameIsntTim" target="_blank">Github</a>
+    </footer>
+</body>
+</html>
