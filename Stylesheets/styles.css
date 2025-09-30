@@ -95,7 +95,7 @@ footer {
 }
 
 #projects {
-    width: 100vw;
+    width: auto;
 }
 
 #sites, #about, #music {
