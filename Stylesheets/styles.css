@@ -10,6 +10,10 @@
     margin: 0;
 }
 
+img {
+        width: 100%;
+    }
+
 h2 {
     font-size: 40px;
 }
@@ -42,8 +46,7 @@ nav ul {
 }
 
 a img{
-    width: 382px;
-    height: 191px;
+    max-width: 382px;
     border-radius: 10px;
     transition: transform 200ms;
     border: solid 5px #406C51;
@@ -66,8 +69,7 @@ footer {
 #pfp {
     border-radius: 50%;
     border: solid 5px #406C51;
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
     z-index: 3;
 }
 
@@ -111,6 +113,13 @@ footer {
     margin: 15px;
 }
 
-#music {
-    width: 100vw;
+@media screen and (max-width: 585px)
+{
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
 }
