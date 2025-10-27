@@ -8,6 +8,7 @@
     background-color: #9da0d1;
     color: #1B156F;
     margin: 0;
+    line-height: 125%;
 }
 
 img {
@@ -62,7 +63,7 @@ audio {
 
 footer {
     border-top: solid 5px #406C51;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     padding: 10px;
 }
 
@@ -88,10 +89,6 @@ footer {
     max-width: 50rem;
 }
 
-#education {
-    margin-top: 50px;
-}
-
 #projects h2 {
     margin-left: 15px;
 }
@@ -103,6 +100,10 @@ footer {
 #sites, #about, #music {
     display: flex;
     flex-wrap: wrap;
+}
+
+#skills {
+    border: 0px;
 }
 
 .project-display h3 { 
