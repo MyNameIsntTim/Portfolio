@@ -174,10 +174,6 @@ footer {
     max-width: 30rem;
 }
 
-.post-upload {
-    margin: 1rem 2rem;
-}
-
 /* .post-category, .post-tags{ */
 
 /* } */
@@ -190,5 +186,66 @@ footer {
 
     nav ul {
         flex-direction: column;
+    }
+}
+
+/* Replacing the #index-top table with a simple 2-column Grid */
+.index-top-responsive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 1.5rem;
+    max-width: 600px;
+}
+
+.index-top-responsive p {
+    font-size: 1.5rem;
+}
+
+/* Replacing the .post table with a 2-column Grid */
+.post-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+    align-items: center;
+    /* Aligns items vertically in the middle */
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+/* Make sure the thumbnail can shrink on small screens */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    width: 25rem;
+    /* Keeps his original width when possible */
+    margin: 0;
+    /* Overrides original margin for better grid layout */
+}
+
+/* Removing left margin from post excerpt since Grid gap manages spacing now */
+.post-grid .post-excerpt {
+    margin-left: 0;
+}
+
+.post-grid .post-upload {
+    margin: 0;
+}
+
+/* Mobile Responsiveness for all new Grid elements */
+@media screen and (max-width: 768px) {
+
+    /* Stack top search/categories into 1 column */
+    .index-top-responsive {
+        grid-template-columns: 1fr;
+    }
+
+    /* Stack the post layout into 1 column */
+    .post-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .post-grid .responsive-img {
+        margin: 0 auto;
     }
 }
