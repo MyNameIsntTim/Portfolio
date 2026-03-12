@@ -237,6 +237,17 @@ footer {
     /* Stack top search/categories into 1 column */
     .index-top-responsive {
         grid-template-columns: 1fr;
+        margin: 24px auto;
+        justify-items: center;
+        
+    }
+
+    .post-excerpt {
+        justify-self: center;
+    }
+
+    h2 {
+        justify-self: center;
     }
 
     /* Stack the post layout into 1 column */
@@ -247,5 +258,9 @@ footer {
 
     .post-grid .responsive-img {
         margin: 0 auto;
+    }
+
+    .project-display {
+        margin: 15px auto;
     }
 }
